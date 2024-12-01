@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "production": [
+        {
+            "dinoType": "/Game/PrimalEarth/Dinos/Hesperornis/Hesperornis_Character_BP.Hesperornis_Character_BP",
+            "chanceToProduce": 1,
+            "produces": [
+                {
+                    "intervalSeconds": 5.0,
+                    "itemSelectMode": 1,
+                    "items": [
+                        {
+                            "bpPath": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis.PrimalItemConsumable_Egg_Hesperonis",
+                            "maxQuantityPerCycle": 1,
+                            "maxQuantityInTerminal": 0,
+                            "quantityPerDino": 1,
+                            "alternateSelectMode": 0,
+                            "alternateItemsChance": 0.25,
+                            "alternateItems": [
+                                {
+                                    "bpPath": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Hesperonis_Golden.PrimalItemConsumable_Egg_Hesperonis_Golden",
+                                    "quantityPerItem": 1,
+                                    "maxQuantityPerCycle": 1,
+                                    "maxQuantityInTerminal": 10
+                                }
+                            ],
+                            "comsumesSelectMode": 0,
+                            "consumesItemsChance": 0,
+                            "consumesItems": []
+                        }
+                   ]
+              }
+            ]
+        }
+  ]
+}
